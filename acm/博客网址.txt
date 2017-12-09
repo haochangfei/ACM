@@ -1,0 +1,8 @@
+位运算
+http://blog.csdn.net/morewindows/article/details/7354571
+
+字符串包含问题 
+http://blog.csdn.net/v_JULY_v/article/details/6347454
+
+左旋转字符串
+http://blog.csdn.net/v_JULY_v/article/details/6322882
