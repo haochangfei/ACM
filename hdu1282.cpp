@@ -6,8 +6,8 @@ string f(int n)
 {
     stringstream ss;
     ss<<n;
-    string s = ss.str();
-    string s2(s.rbegin(),s.rend());
+    string s = ss.str();///将数字转化string
+    string s2(s.rbegin(),s.rend());///string逆序
     return s2;
 }
 
@@ -41,7 +41,7 @@ int main()
             else
             {
                 num[len++] = n;
-                int temp = atoi(f(n).c_str());
+                int temp = atoi(f(n).c_str());///将字符串转化为数字
                 n = n + temp;
             }
         }
