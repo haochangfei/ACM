@@ -22,7 +22,7 @@ int main()
 		}
 		for(int j=1;j<cnt&&num[j]*i<=n;j++)
 		{
-			isPrime[num[j]*i] = 0;//prime <= i :prime * i  
+			isPrime[num[j]*i] = 0;///筛掉小于等于i的素数和i的积构成的合数  
 		}
 	}
 	cout<<sum<<endl;
